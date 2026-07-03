@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simplified piano keys icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,34 h48 v40 a2,2 0 0 1 -2,2 h-44 a2,2 0 0 1 -2,-2 z" />
+    <path
+        android:fillColor="#1A1B26"
+        android:pathData="M41,34 h2 v40 h-2 z M53,34 h2 v40 h-2 z M65,34 h2 v40 h-2 z" />
+    <path
+        android:fillColor="#1A1B26"
+        android:pathData="M38,34 h6 v24 h-6 z M50,34 h6 v24 h-6 z M62,34 h6 v24 h-6 z" />
+</vector>
