@@ -1,0 +1,19 @@
+name: Hello CI
+
+on:
+  push: {}
+  pull_request: {}
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Print info
+        run: |
+          echo "Branch: ${{ github.ref }}"
+          echo "Actor: ${{ github.actor }}"
+          node -v || true
+          python --version || true
+     
